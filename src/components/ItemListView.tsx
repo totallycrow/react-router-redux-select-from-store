@@ -10,7 +10,7 @@ export default function ItemListView() {
       <h1>ItemListView</h1>
       <div>
         {items.map((item: string) => (
-          <div>{item}</div>
+          <div key={item}>{item}</div>
         ))}
       </div>
     </div>

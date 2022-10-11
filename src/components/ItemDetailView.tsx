@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { increment } from "../features/itemSelection/itemSelectionSlice";
+import {} from "../features/itemSelection/itemSelectionSlice";
 import type { RootState } from "../app/store";
 
 export default function ItemListView() {
